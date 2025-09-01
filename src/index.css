@@ -1,0 +1,93 @@
+.bg-info{
+  padding: 20px;
+  color:white;
+  background:linear-gradient(45deg,black,red,blue);
+}
+
+#sec1{
+  padding: 20px;
+  color:white;
+  background:linear-gradient(45deg,rgb(26, 4, 224),rgb(126, 213, 12));
+}
+#h1tag{
+  text-align:justify;
+  font-size: 30px;
+  font-weight: bold;
+  color: cyan;
+}
+
+.text{
+  color: cyan;
+}
+
+b{
+  color: yellow;
+}
+
+#img-temp{
+  width: 50%;
+  height: 50%;
+  border-radius: 10px 10px;
+  ;
+}
+
+img{
+  width: 100% !important;
+  height: 100% !important;
+  /* border-radius: 10px 10px; */
+}
+.card-style{
+  width: 100% !important;
+  height: 500% !important;
+  /* border-radius: 10px 10px; */
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ ;
+  
+}
+
+.shimmer-wrapper {
+  position: relative;
+  overflow: hidden;
+  background-color: #f6f7f8;
+}
+
+.shimmer {
+  position: absolute;
+  top: 0;
+  left: -150px;
+  height: 100%;
+  width: 150px;
+  background: linear-gradient(to right, #f6f7f8 0%, #e0e0e0 50%, #f6f7f8 100%);
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -150px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.landing-page{
+  background:linear-gradient(45deg,black,red,blue,white);
+  height: 100vh;
+  
+  color: white;
+}
+
+.userLogin,.userRegister{
+  background: linear-gradient(45deg,black,red,blue,white);
+  height: 100vh;
+}
+
+body{
+ background:linear-gradient(45deg,rgb(2, 2, 2),rgba(44, 41, 43, 0),rgb(2, 2, 2)) no-repeat center center fixed;
+ background-size: cover;
+}
+
